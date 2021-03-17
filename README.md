@@ -68,7 +68,7 @@ elements. So, for instance, the component below renders valid JSX:
 ```js
 import React from 'react';
 
-class App extends React.Component {
+class App extends Component {
 
   generateInnerJSX = () => {
     return (
@@ -97,7 +97,7 @@ a `ul` element, we could write:
 ```js
 import React from 'react';
 
-class App extends React.Component {
+class App extends Component {
 
   generateInnerJSX = () => {
     return [
